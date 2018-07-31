@@ -36,9 +36,26 @@ owner:
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
+# Default behavior
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _posts
+  -  scope:
+      type: posts
+      author_profile: false
+
+# Plugin support
 
 include:
   - .htaccess
+  - ["_pages"]
 exclude:
   - "*.less"
   - "*.sublime-project"
