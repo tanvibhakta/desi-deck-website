@@ -5,7 +5,7 @@ description: "A curated collection of ordinary Indian women who have changed the
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url: deck.desi
+# url: deck.desi
 feed:
   path: atom.xml
 
@@ -36,21 +36,6 @@ owner:
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
-# Default behavior
-
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-  # _posts
-  -  scope:
-      type: posts
-      author_profile: false
-
 # Octopress configuration
 
 titlecase: true
@@ -59,7 +44,7 @@ titlecase: true
 
 include:
   - .htaccess
-  - ["_pages"]
+  - _pages
 exclude:
   - "*.less"
   - "*.sublime-project"
