@@ -1,0 +1,17 @@
+# Copy to be used on the various panels
+
+- panel: panel-2
+  title: 54 gorgeously illustrated cards
+  text: This is a well-illustrated, informative playable deck of cards complete with 2 jokers. The 4 suits of a deck of cards will represent the 4 streams of policy, law, business, and journalism.
+
+- panel: panel-3
+  title: Nominate someone
+  text: A nominee is someone who is passionate about the job they do, and the impact they create while doing so. Know someone who sounds like this? Nominate them now! You can read more about the [selection criteria here](https://medium.com/@tanvibhakta/desi-deck-of-dames-selection-criteria-59e3828e3ade).
+
+- panel: panel-4
+  title: Sign up for the editathon!
+  text: A lot of the very capable people who have been nominated do not yet have full Wikipedia pages, despite being quite eligible. We want to help bridge that gap! If you want to too, sign up below.
+
+- panel: panel-5
+  title: 
+  text: Don’t miss out on a chance to own the first edition of the Desi Deck of Dames. Sign up for our mailing list now.
