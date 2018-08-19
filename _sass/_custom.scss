@@ -1,4 +1,14 @@
-#mc-embedded-subscribe {
-    width: 25% !important;
+#mc_embed_signup #mc-embedded-subscribe {
+    width: 100% !important;
     margin: 0 auto !important;
+    @include media($small) {
+		width: 50% !important;
+    }
+    @include media($large) {
+		width: 25% !important;
+	}
+}
+
+#mc_embed_signup .clear input {
+    border-radius: 3px !important;
 }
