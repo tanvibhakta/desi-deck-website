@@ -1,5 +1,5 @@
-<div id="nominate_form">
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfeHRXvbrUEqvwJjENL8u_fJQfC5nslMbtP9h83dysOsiyXyg/formResponse?embedded=true" method="post" target="no-target">
+<div id="nominate_form_element">
+    <form onsubmit="return gformSubmit()" action="https://docs.google.com/forms/d/e/1FAIpQLSfeHRXvbrUEqvwJjENL8u_fJQfC5nslMbtP9h83dysOsiyXyg/formResponse?embedded=true" method="post" target="no-target" id="nominate_form">
         <label>Name</label>
         <input name="entry.1919681697" type="text" required/>
         <label>Commments</label>
@@ -9,4 +9,17 @@
         <input type="submit" value="Send">
     </form>
     <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+    <script>
+        // GForm Submission
+        function gformSubmit() {
+            // Hide the div
+            var element = document.getElementById("nominate_form");
+            element.parentNode.removeChild(element);
+            // Show success
+            var p = document.getElementById("nominate_form_element");
+            var newElement = document.createElement("p");
+            newElement.innerHTML = "Thanks for your response.";
+            p.appendChild(newElement);
+        }
+    </script>
 </div>
