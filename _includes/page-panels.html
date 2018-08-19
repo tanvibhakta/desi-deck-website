@@ -1,8 +1,45 @@
-<div class="page-lead" style="background-color: #6c5c7a">
-  <div class="page-lead-content">
-    {% assign content = site.data.page-panels | where: "panel", "panel-2" | first %}
-    <h2>{{content.title}}</h2>
-    <h5>{{content.text}}</h5>
+<div>
+  {% assign content = site.data.page-panels | where: "panel", "panel-2" | first %}
+  <div class="page-lead" style="background-color:{{content.panel-background}}">
+    <div class="page-lead-content">
+      <h2>{{content.title}}</h2>
+      <h5>{{content.text}}</h5>
+    </div>
+  </div>
+</div>
 
+
+<div>
+  {% assign content = site.data.page-panels | where: "panel", "panel-3" | first %}
+  <div class="page-lead" style="background-color:{{content.panel-background}}">
+    <div class="page-lead-content">
+      <h2>{{content.title}}</h2>
+      <h5>{{content.text}}</h5>
+
+    </div>
+  </div>
+</div>
+
+
+<div>
+  {% assign content = site.data.page-panels | where: "panel", "panel-4" | first %}
+  <div class="page-lead" style="background-color:{{content.panel-background}}">
+    <div class="page-lead-content">
+      <h2>{{content.title}}</h2>
+      <h5>{{content.text}}</h5>
+
+    </div>
+  </div>
+</div>
+
+
+<div>
+  {% assign content = site.data.page-panels | where: "panel", "panel-5" | first %}
+  <div class="page-lead" style="background-color:{{content.panel-background}}">
+    <div class="page-lead-content">
+      <h2>{{content.title}}</h2>
+      <h5>{{content.text}}</h5>
+
+    </div>
   </div>
 </div>
