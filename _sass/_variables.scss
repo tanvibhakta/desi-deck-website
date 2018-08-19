@@ -6,10 +6,8 @@
    Typography variables
    ========================================================================== */
 
-// $base-font                   	: Georgia,Times,"Times New Roman",serif;
-$base-font                   	: "Dosis", sans-serif;
-// $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
-$heading-font                	: $base-font;
+$base-font                   	: 'Raleway', sans-serif;
+$heading-font                	: "Dosis", sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
