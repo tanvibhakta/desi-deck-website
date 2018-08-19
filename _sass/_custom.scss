@@ -12,3 +12,12 @@
 #mc_embed_signup .clear input {
     border-radius: 3px !important;
 }
+
+#mc_embed_signup * {
+    @include media($medium) {
+        padding: 1em;
+    }
+    @include media($small) {
+        padding: 0.5em;
+    }
+}
