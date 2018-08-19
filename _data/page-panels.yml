@@ -8,7 +8,9 @@
 - panel: panel-3
   panel-background: "#bd6d84" #cream
   title: Nominate someone
-  text: A nominee is someone who is passionate about the job they do, and the impact they create while doing so. Know someone who sounds like this? Nominate them now! You can read more about the [selection criteria here](https://medium.com/@tanvibhakta/desi-deck-of-dames-selection-criteria-59e3828e3ade).
+  text: "A nominee is someone who is passionate about the job they do, and the impact they create while doing so. Know someone who sounds like this? Nominate them now! You can read more about the "
+  url-text: selection criteria here
+  url: https://medium.com/@tanvibhakta/desi-deck-of-dames-selection-criteria-59e3828e3ade
 
 - panel: panel-4
   panel-background: "#d7d2b4" #dull purple
